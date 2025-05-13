@@ -1,0 +1,704 @@
+{
+    "users": [
+        {
+            "user_id": "8739ff15-ab50-40a3-93c5-70cf038fa42c",
+            "user_name": "Tralalero",
+            "user_lastname": "Tralala",
+            "user_profession": "Programador Full Stack",
+            "user_website": "https://andres-portfolio-b4dv.onrender.com",
+            "user_email": "tralalero1@gmail.com",
+            "user_phone": 3209202177,
+            "user_password": "$2a$10$vcxUAUF9IqVd/fM9QHy0FOpVDDZ0CM3kHmdFwmAXlQP/8TgpOR/4.",
+            "user_image": "https://avatars.githubusercontent.com/u/88812365?v=4",
+            "createdAt": "2025-03-29T11:47:42.000Z",
+            "updatedAt": "2025-03-29T11:47:42.000Z",
+            "role_id": 3
+        },
+        {
+            "user_id": "66853387-e365-4d22-89b6-c51708efb1ad",
+            "user_name": "Juan",
+            "user_lastname": "Bernal",
+            "user_profession": "Profesor de Programación Web",
+            "user_website": null,
+            "user_email": "juanbernal@gmail.com",
+            "user_phone": 3228361323,
+            "user_password": "$2a$10$hzNqel6gl67xgcKvksG5X..jxZyMvlv2.w8058A6jdiewM3r6gI5m",
+            "user_image": "https://avatars.githubusercontent.com/u/88812365?v=4",
+            "createdAt": "2025-03-29T11:47:42.000Z",
+            "updatedAt": "2025-03-29T11:47:42.000Z",
+            "role_id": 2
+        },
+        {
+            "user_id": "e159d848-3457-4a87-9ece-1a225e6ee236",
+            "user_name": "Samuel",
+            "user_lastname": "Useche Chaparro",
+            "user_profession": "Programador Junior",
+            "user_website": null,
+            "user_email": "samuuseche01@gmail.com",
+            "user_phone": 3107838443,
+            "user_password": "$2a$10$MTtEbwn0iQ0LVuviooY15.jk5xQEz782EjWIGqNKNChQjgaISlurS",
+            "user_image": "https://avatars.githubusercontent.com/u/173304719?v=4",
+            "createdAt": "2025-03-29T11:47:42.000Z",
+            "updatedAt": "2025-03-29T11:47:42.000Z",
+            "role_id": 1
+        }
+    ],
+    "roles": [
+        {
+            "role_id": 1,
+            "role_name": "estudiante"
+        },
+        {
+            "role_id": 2,
+            "role_name": "docente"
+        },
+        {
+            "role_id": 3,
+            "role_name": "administrador"
+        }
+    ],
+    "courses": [
+        {
+            "course_id": "15e58474-9e12-4939-88cd-4b02675914dd",
+            "teacher_id": "66853387-e365-4d22-89b6-c51708efb1ad",
+            "course_name": "Curso de Programación Básica",
+            "course_description": "Programa desde cero, domina Javascript, entiende HTML y aprende de algoritmos. Sí, desde cero. Entenderás la lógica del código, cómo piensan las programadoras expertas y cómo programar un sitio web de principio a fin. Aprender a programar no es fácil, pero eduweb lo hace efectivo.",
+            "course_image": "https://i.ytimg.com/vi/7TKY-jksHRQ/maxresdefault.jpg",
+            "course_difficulty": "básico",
+            "category_id": 1,
+            "createdAt": "2025-03-29T11:47:42.000Z",
+            "updatedAt": "2025-03-29T11:47:42.000Z"
+        },
+        {
+            "course_id": "b9d2f45a-7e12-4f3c-a6b8-4e23a981f789",
+            "teacher_id": "66853387-e365-4d22-89b6-c51708efb1ad",
+            "course_name": "Curso Completo de Bases de Datos: Relacionales y No Relacionales",
+            "course_description": "Aprende a gestionar bases de datos relacionales con MySQL y phpMyAdmin, y bases de datos no relacionales con MongoDB. Comprende las diferencias entre estos modelos y cuándo utilizar cada uno.",
+            "course_image": "https://www.epitech-it.es/wp-content/uploads/2022/07/programas-bases-de-datos.jpg",
+            "course_difficulty": "intermedio",
+            "category_id": 1,
+            "createdAt": "2025-04-03T12:00:00.000Z",
+            "updatedAt": "2025-04-03T12:00:00.000Z"
+        }
+    ],
+    "categories": [
+        {
+            "category_id": 1,
+            "category_name": "Programación Web",
+            "category_icon": "FaCode"
+        },
+        {
+            "category_id": 2,
+            "category_name": "Diseño Gráfico",
+            "category_icon": "FaPaintBrush"
+        }
+    ],
+    "blocks": [
+        {
+            "block_id": "ddf26f57-ea54-4b25-b382-36925326f00b",
+            "block_title": "Introducción",
+            "block_description": "Introducción a la programación web",
+            "course_id": "15e58474-9e12-4939-88cd-4b02675914dd",
+            "block_order": 1
+        },
+        {
+            "block_id": "a0c3b3b9-0b8f-4a0b-8a3b-4c4d3f4a5b6c",
+            "block_title": "Bases de datos relacionales",
+            "block_description": "Bases de datos relacionales con SQLite y Python",
+            "course_id": "15e58474-9e12-4939-88cd-4b02675914dd",
+            "block_order": 2
+        },
+        {
+            "block_id": "b7c4c9c4-6c2c-4e9d-96c1-7c3f5f9c7dc2",
+            "block_title": "Herramientas de desarrollo",
+            "block_description": "Herramientas de desarrollo",
+            "course_id": "15e58474-9e12-4939-88cd-4b02675914dd",
+            "block_order": 3
+        },
+
+        {
+            "block_id": "a3b4567e-9c23-4d56-b8e1-123f67a9b789",
+            "block_title": "Introducción a las Bases de Datos",
+            "block_description": "Conceptos básicos de bases de datos, modelos relacionales y no relacionales.",
+            "course_id": "b9d2f45a-7e12-4f3c-a6b8-4e23a981f789",
+            "block_order": 1
+        },
+        {
+            "block_id": "d8f12345-6a78-4b9c-9e12-4567a9b3cde0",
+            "block_title": "Bases de Datos Relacionales con MySQL y phpMyAdmin",
+            "block_description": "Cómo gestionar bases de datos relacionales con MySQL y phpMyAdmin.",
+            "course_id": "b9d2f45a-7e12-4f3c-a6b8-4e23a981f789",
+            "block_order": 2
+        },
+        {
+            "block_id": "f7a65432-1b23-4c5d-8e91-5678b9d3aef0",
+            "block_title": "Bases de Datos No Relacionales con MongoDB",
+            "block_description": "Cómo gestionar bases de datos NoSQL con MongoDB.",
+            "course_id": "b9d2f45a-7e12-4f3c-a6b8-4e23a981f789",
+            "block_order": 3
+        }
+    ],
+    "lessons": [
+        {
+            "lesson_id": "c52fd89c-d3b0-437f-9674-278dfc99de22",
+            "block_id": "ddf26f57-ea54-4b25-b382-36925326f00b",
+            "lesson_title": "Curso HTML y CSS desde cero (completo)",
+            "lesson_video": "https://www.youtube.com/watch?v=ELSm-G201Ls&list=PLE8uP447fYpgOwKgbypiCGSz7veY2MLGb&index=1",
+            "lesson_image": "https://i.ytimg.com/vi/ELSm-G201Ls/hqdefault.jpg",
+            "lesson_description": "# Curso HTML y CSS desde cero (completo)\n\n## Descripción General\nEste curso integral te guiará paso a paso en el mundo del desarrollo web frontend, enfocándose en las dos tecnologías fundamentales: HTML y CSS.\n\n## Lo que aprenderás\n- Fundamentos de HTML5\n- Estructura básica de documentos web\n- Etiquetas semánticas\n- Formularios y validación\n- Principios de CSS3\n- Selectores y especificidad\n- Modelo de cajas\n- Flexbox y Grid\n- Diseño responsivo\n\n## Metodología\nEl curso combina teoría con práctica, incluyendo:\n- Ejemplos prácticos\n- Ejercicios guiados\n- Proyectos reales\n- Mejores prácticas\n\n## Resultado Final\nAl completar el curso, serás capaz de:\n- Crear sitios web desde cero\n- Implementar diseños modernos\n- Aplicar estilos profesionales\n- Desarrollar páginas responsivas",
+            "lesson_duration": "24:01:02",
+            "lesson_order": 1
+        },
+        {
+            "lesson_id": "fc206644-f05a-4ee8-ae69-cdfa6e35b650",
+            "block_id": "ddf26f57-ea54-4b25-b382-36925326f00b",
+            "lesson_title": "Curso de JAVASCRIPT desde CERO (Completo)",
+            "lesson_video": "https://www.youtube.com/watch?v=z95mZVUcJ-E&list=PLE8uP447fYpgOwKgbypiCGSz7veY2MLGb&index=2",
+            "lesson_image": "https://i.ytimg.com/vi/z95mZVUcJ-E/hqdefault.jpg",
+            "lesson_description": "# Curso de JavaScript desde CERO (Completo)\n\n## Descripción General\nEste curso te llevará desde los conceptos más básicos hasta los más avanzados de JavaScript, el lenguaje de programación más utilizado en el desarrollo web.\n\n## Lo que aprenderás\n- Fundamentos de JavaScript\n- Variables y tipos de datos\n- Operadores y expresiones\n- Estructuras de control\n- Funciones y scope\n- Objetos y arrays\n- Programación orientada a objetos\n- Manipulación del DOM\n- Eventos y listeners\n- AJAX y APIs\n\n## Ejemplos de código\n```js\n// Ejemplo de función básica\nfunction saludar(nombre) {\n    return `Hola, ${nombre}!`;\n}\n\n// Ejemplo de manipulación del DOM\ndocument.getElementById('miBoton').addEventListener('click', () => {\n    console.log('Botón clickeado!');\n});\n```\n\n## Resultado Final\nAl finalizar el curso, podrás:\n- Crear aplicaciones web interactivas\n- Manipular el DOM dinámicamente\n- Trabajar con APIs y datos externos\n- Implementar lógica de negocio compleja",
+            "lesson_duration": "10:00:40",
+            "lesson_order": 2
+        },
+        {
+            "lesson_id": "7a8c3a5a-4f6c-4463-83a3-0f1f3c9f4f17",
+            "block_id": "a0c3b3b9-0b8f-4a0b-8a3b-4c4d3f4a5b6c",
+            "lesson_title": "Curso de SQL desde CERO (Completo)",
+            "lesson_video": "https://www.youtube.com/watch?v=DFg1V-rO6Pg&list=PLE8uP447fYpgOwKgbypiCGSz7veY2MLGb&index=5",
+            "lesson_image": "https://i.ytimg.com/vi/DFg1V-rO6Pg/hqdefault.jpg",
+            "lesson_description": "# Curso de SQL desde CERO (Completo)\n\n## Descripción General\nAprende SQL, el lenguaje estándar para bases de datos relacionales, esencial para cualquier profesional de TI.\n\n## Lo que aprenderás\n- Fundamentos de bases de datos relacionales\n- Sintaxis SQL básica y avanzada\n- Consultas SELECT, INSERT, UPDATE, DELETE\n- Joins y relaciones entre tablas\n- Funciones agregadas\n- Subconsultas\n- Índices y optimización\n- Transacciones y concurrencia\n\n## Ejemplos de código\n```js\n// Consulta básica\nSELECT nombre, apellido FROM usuarios WHERE edad > 18;\n\n// Join entre tablas\nSELECT u.nombre, p.titulo\nFROM usuarios u\nJOIN posts p ON u.id = p.usuario_id;\n```\n\n## Resultado Final\nAl completar el curso, podrás:\n- Diseñar y consultar bases de datos eficientemente\n- Optimizar consultas SQL\n- Gestionar datos de forma segura\n- Trabajar con bases de datos en producción",
+            "lesson_duration": "07:21:26",
+            "lesson_order": 3
+        },
+        {
+            "lesson_id": "b7c4c9c4-6c2c-4e9d-96c1-7c3f5f9c7dc3",
+            "block_id": "b7c4c9c4-6c2c-4e9d-96c1-7c3f5f9c7dc2",
+            "lesson_title": "Curso de GIT desde CERO (Completo)",
+            "lesson_video": "https://www.youtube.com/watch?v=9ZJ-K-zk_Go&list=PLE8uP447fYpgOwKgbypiCGSz7veY2MLGb&index=7",
+            "lesson_image": "https://i.ytimg.com/vi/9ZJ-K-zk_Go/hqdefault.jpg",
+            "lesson_description": "# Curso de GIT desde CERO (Completo)\n\n## Descripción General\nAprende a utilizar Git, el sistema de control de versiones más popular del mundo, esencial para el desarrollo de software moderno.\n\n## Lo que aprenderás\n- Fundamentos de control de versiones\n- Instalación y configuración de Git\n- Comandos básicos y avanzados\n- Ramas (branches) y merge\n- GitHub y GitLab\n- Workflows colaborativos\n- Resolución de conflictos\n- Git hooks y automatización\n\n## Ejemplos de comandos\n```js\n# Inicializar un repositorio\ngit init\n\n# Clonar un repositorio\ngit clone https://github.com/usuario/repo.git\n\n# Crear y cambiar a una nueva rama\ngit checkout -b feature/nueva-funcionalidad\n```\n\n## Resultado Final\nAl finalizar el curso, podrás:\n- Gestionar proyectos de software eficientemente\n- Colaborar en equipos de desarrollo\n- Mantener un historial de cambios organizado\n- Implementar workflows profesionales",
+            "lesson_duration": "04:11:46",
+            "lesson_order": 4
+        },
+        {
+            "lesson_id": "e3488447-9878-4c3b-a2f1-9ca1312d33ad",
+            "block_id": "b7c4c9c4-6c2c-4e9d-96c1-7c3f5f9c7dc2",
+            "lesson_title": "Curso de HOSTING desde CERO (Completo)",
+            "lesson_video": "https://www.youtube.com/watch?v=hikoV1Q9EzY&list=PLE8uP447fYpgOwKgbypiCGSz7veY2MLGb&index=8",
+            "lesson_image": "https://i.ytimg.com/vi/hikoV1Q9EzY/hqdefault.jpg",
+            "lesson_description": "# Curso de HOSTING desde CERO (Completo)\n\n## Descripción General\nAprende todo sobre hosting web, desde conceptos básicos hasta implementación avanzada de servicios en la nube.\n\n## Lo que aprenderás\n- Tipos de hosting (compartido, VPS, dedicado)\n- Dominios y DNS\n- Servidores web (Apache, Nginx)\n- SSL y seguridad\n- Bases de datos en la nube\n- CDN y optimización\n- Monitoreo y mantenimiento\n- Escalabilidad y alta disponibilidad\n\n## Configuración básica\n```js\n# Ejemplo de configuración Nginx\nserver {\n    listen 80;\n    server_name ejemplo.com;\n    root /var/www/html;\n    index index.php index.html;\n}\n```\n\n## Resultado Final\nAl completar el curso, podrás:\n- Implementar soluciones de hosting profesionales\n- Optimizar el rendimiento de sitios web\n- Gestionar la seguridad de servidores\n- Escalar aplicaciones según demanda",
+            "lesson_duration": "02:15:33",
+            "lesson_order": 5
+        },
+        {
+            "lesson_id": "cedf10fb-e690-4182-a686-62bf831bf487",
+            "block_id": "b7c4c9c4-6c2c-4e9d-96c1-7c3f5f9c7dc2",
+            "lesson_title": "Curso de VISUAL STUDIO CODE desde CERO (Completo)",
+            "lesson_video": "https://www.youtube.com/watch?v=TbzrOz8HbFM&list=PLE8uP447fYpgOwKgbypiCGSz7veY2MLGb&index=9",
+            "lesson_image": "https://i.ytimg.com/vi/TbzrOz8HbFM/hqdefault.jpg",
+            "lesson_description": "# Curso de Visual Studio Code desde CERO (Completo)\n\n## Descripción General\nDomina Visual Studio Code, el editor de código más popular y potente para desarrollo moderno.\n\n## Lo que aprenderás\n- Instalación y configuración\n- Atajos de teclado\n- Extensiones esenciales\n- Integración con Git\n- Debugging\n- Snippets y templates\n- Terminal integrada\n- Configuración de workspace\n\n## Configuración recomendada\n```js\n{\n    \"editor.formatOnSave\": true,\n    \"editor.tabSize\": 2,\n    \"files.autoSave\": \"afterDelay\",\n    \"terminal.integrated.shell.windows\": \"C:\\\\Program Files\\\\Git\\\\bin\\\\bash.exe\"\n}\n```\n\n## Resultado Final\nAl finalizar el curso, podrás:\n- Optimizar tu flujo de trabajo\n- Personalizar tu entorno de desarrollo\n- Trabajar de forma más eficiente\n- Integrar herramientas de desarrollo",
+            "lesson_duration": "02:20:21",
+            "lesson_order": 6
+        },
+
+        {
+            "lesson_id": "abcd1234-5678-4e9f-bc1d-2a3456789ef0",
+            "block_id": "a3b4567e-9c23-4d56-b8e1-123f67a9b789",
+            "lesson_title": "¿Qué es una Base de Datos?",
+            "lesson_video": "https://www.youtube.com/watch?v=knVwokXITGI",
+            "lesson_image": "https://i.ytimg.com/vi/knVwokXITGI/hqdefault.jpg",
+            "lesson_description": "# ¿Qué es una Base de Datos?\n\n## Descripción General\nIntroducción completa al mundo de las bases de datos, sus tipos y su importancia en el desarrollo de software.\n\n## Lo que aprenderás\n- Conceptos fundamentales\n- Tipos de bases de datos\n  - Relacionales (SQL)\n  - NoSQL\n  - Documentales\n  - Grafos\n- Modelos de datos\n- ACID y transacciones\n- Normalización\n\n## Ejemplo de modelo relacional\n```js\nCREATE TABLE usuarios (\n    id INT PRIMARY KEY,\n    nombre VARCHAR(50),\n    email VARCHAR(100) UNIQUE,\n    fecha_registro DATETIME\n);\n```\n\n## Resultado Final\nAl completar el curso, podrás:\n- Comprender los diferentes tipos de bases de datos\n- Elegir la base de datos adecuada para cada proyecto\n- Diseñar modelos de datos eficientes\n- Entender los principios de normalización",
+            "lesson_duration": "00:21:03",
+            "lesson_order": 1
+        },
+        {
+            "lesson_id": "efgh5678-1234-4b9c-a1d2-3a456789bcde",
+            "block_id": "d8f12345-6a78-4b9c-9e12-4567a9b3cde0",
+            "lesson_title": "Diseño de Bases de Datos relacionales",
+            "lesson_video": "https://www.youtube.com/watch?v=LL4WYeB3C_8",
+            "lesson_image": "https://i.ytimg.com/vi/LL4WYeB3C_8/hqdefault.jpg",
+            "lesson_description": "# Diseño de Bases de Datos Relacionales\n\n## Descripción General\nAprende a diseñar bases de datos relacionales eficientes y escalables siguiendo las mejores prácticas.\n\n## Lo que aprenderás\n- Modelado de datos\n- Normalización (1NF, 2NF, 3NF)\n- Relaciones y cardinalidad\n- Claves primarias y foráneas\n- Índices y optimización\n- Integridad referencial\n- Diagramas ER\n\n## Ejemplo de diseño\n```js\n-- Tabla de usuarios\nCREATE TABLE usuarios (\n    id INT PRIMARY KEY AUTO_INCREMENT,\n    nombre VARCHAR(50) NOT NULL,\n    email VARCHAR(100) UNIQUE NOT NULL\n);\n\n-- Tabla de pedidos\nCREATE TABLE pedidos (\n    id INT PRIMARY KEY AUTO_INCREMENT,\n    usuario_id INT,\n    fecha DATETIME DEFAULT CURRENT_TIMESTAMP,\n    FOREIGN KEY (usuario_id) REFERENCES usuarios(id)\n);\n```\n\n## Resultado Final\nAl finalizar el curso, podrás:\n- Diseñar bases de datos eficientes\n- Aplicar principios de normalización\n- Crear relaciones entre tablas\n- Optimizar el rendimiento",
+            "lesson_duration": "00:28:57",
+            "lesson_order": 2
+        },
+        {
+            "lesson_id": "ijkl9012-3456-4c7d-a8b9-5d6e789fgh11",
+            "block_id": "d8f12345-6a78-4b9c-9e12-4567a9b3cde0",
+            "lesson_title": "Instalación y Uso de phpMyAdmin",
+            "lesson_video": "https://www.youtube.com/watch?v=IQ22Nme9t0M",
+            "lesson_image": "https://i.ytimg.com/vi/IQ22Nme9t0M/hqdefault.jpg",
+            "lesson_description": "# Instalación y Uso de phpMyAdmin\n\n## Descripción General\nGuía completa para instalar y utilizar phpMyAdmin, la herramienta más popular para administrar bases de datos MySQL.\n\n## Lo que aprenderás\n- Instalación de phpMyAdmin\n- Configuración de seguridad\n- Gestión de bases de datos\n- Creación de tablas\n- Importación/exportación\n- Consultas SQL\n- Usuarios y permisos\n- Copias de seguridad\n\n## Configuración básica\n```js\n// config.inc.php\n$cfg['Servers'][$i]['auth_type'] = 'cookie';\n$cfg['Servers'][$i]['host'] = 'localhost';\n$cfg['Servers'][$i]['compress'] = false;\n$cfg['Servers'][$i]['AllowNoPassword'] = false;\n```\n\n## Resultado Final\nAl completar el curso, podrás:\n- Administrar bases de datos MySQL eficientemente\n- Realizar operaciones de mantenimiento\n- Gestionar usuarios y permisos\n- Implementar copias de seguridad",
+            "lesson_duration": "00:08:05",
+            "lesson_order": 3
+        },
+        {
+            "lesson_id": "98765432-1b23-4c5d-8e91-5678b9d3aef1",
+            "block_id": "d8f12345-6a78-4b9c-9e12-4567a9b3cde0",
+            "lesson_title": "Curso de SQL",
+            "lesson_video": "https://www.youtube.com/watch?v=uUdKAYl-F7g",
+            "lesson_image": "https://i.ytimg.com/vi/uUdKAYl-F7g/hqdefault.jpg",
+            "lesson_description": "# Curso de SQL\n\n## Descripción General\nCurso completo de SQL para interactuar con bases de datos relacionales de forma eficiente.\n\n## Lo que aprenderás\n- Fundamentos de SQL\n- Consultas SELECT\n- Filtrado y ordenamiento\n- Joins y subconsultas\n- Funciones agregadas\n- Transacciones\n- Vistas y procedimientos\n- Optimización de consultas\n\n## Ejemplos de consultas\n```js\n-- Consulta básica\nSELECT * FROM productos WHERE precio > 100;\n\n-- Join con funciones agregadas\nSELECT c.nombre, COUNT(p.id) as total_pedidos\nFROM clientes c\nLEFT JOIN pedidos p ON c.id = p.cliente_id\nGROUP BY c.id;\n```\n\n## Resultado Final\nAl finalizar el curso, podrás:\n- Escribir consultas SQL complejas\n- Optimizar el rendimiento\n- Gestionar transacciones\n- Crear vistas y procedimientos",
+            "lesson_duration": "01:56:58",
+            "lesson_order": 4
+        },
+        {
+            "lesson_id": "ijkl9012-3456-4c7d-a8b9-5d6e789fgh12",
+            "block_id": "f7a65432-1b23-4c5d-8e91-5678b9d3aef0",
+            "lesson_title": "MongoDB: Instalación y Primeros Comandos Básicos",
+            "lesson_video": "https://www.youtube.com/watch?v=heZhS6UzF7k",
+            "lesson_image": "https://i.ytimg.com/vi/heZhS6UzF7k/hqdefault.jpg",
+            "lesson_description": "# MongoDB: Instalación y Primeros Comandos Básicos\n\n## Descripción General\nIntroducción práctica a MongoDB, la base de datos NoSQL más popular.\n\n## Lo que aprenderás\n- Instalación de MongoDB\n- Comandos básicos\n- CRUD operations\n- Consultas básicas\n- Índices\n- Agregaciones\n\n## Ejemplos de comandos\n```js\n// Conexión a MongoDB\nconst MongoClient = require('mongodb').MongoClient;\nconst url = 'mongodb://localhost:27017';\n\n// Insertar documento\ndb.collection('usuarios').insertOne({\n    nombre: 'Juan',\n    edad: 30,\n    email: 'juan@ejemplo.com'\n});\n```\n\n## Resultado Final\nAl completar el curso, podrás:\n- Instalar y configurar MongoDB\n- Realizar operaciones CRUD\n- Crear consultas básicas\n- Gestionar índices",
+            "lesson_duration": "00:15:29",
+            "lesson_order": 5
+        },
+        {
+            "lesson_id": "1f7f6a03-3e55-4ffc-95c6-57a6e6befe4c",
+            "block_id": "f7a65432-1b23-4c5d-8e91-5678b9d3aef0",
+            "lesson_title": "MongoDB: Introducción a las Bases de Datos NoSQL",
+            "lesson_video": "https://www.youtube.com/watch?v=DPdAfgmkNuE",
+            "lesson_image": "https://i.ytimg.com/vi/DPdAfgmkNuE/hqdefault.jpg",
+            "lesson_description": "# MongoDB: Introducción a las Bases de Datos NoSQL\n\n## Descripción General\nExplora el mundo de las bases de datos NoSQL y su implementación en MongoDB.\n\n## Lo que aprenderás\n- Conceptos NoSQL\n- Modelo de documentos\n- Escalabilidad horizontal\n- Replicación y sharding\n- Agregaciones avanzadas\n- Índices compuestos\n- Transacciones\n\n## Ejemplo de agregación\n```js\n// Agregación compleja\ndb.ventas.aggregate([\n    { $match: { fecha: { $gte: new Date('2023-01-01') } } },\n    { $group: { _id: '$producto', total: { $sum: '$cantidad' } } },\n    { $sort: { total: -1 } }\n]);\n```\n\n## Resultado Final\nAl finalizar el curso, podrás:\n- Comprender el modelo NoSQL\n- Diseñar esquemas flexibles\n- Implementar agregaciones complejas\n- Optimizar el rendimiento",
+            "lesson_duration": "00:30:00",
+            "lesson_order": 6
+        }
+    ],
+    "exams": [
+        {
+            "exam_id": "c52fd89c-d3b0-437f-9674-278dfc99de22",
+            "course_id": "15e58474-9e12-4939-88cd-4b02675914dd",
+            "exam_title": "Examen Introducción a la programación web",
+            "exam_description": "Examen Introducción a la programación web"
+        },
+        {
+            "exam_id": "mnop3456-7890-4bcd-a1e2-3456789fghij",
+            "course_id": "b9d2f45a-7e12-4f3c-a6b8-4e23a981f789",
+            "exam_title": "Evaluación: Bases de Datos Relacionales y No Relacionales",
+            "exam_description": "Examen final para evaluar el conocimiento sobre bases de datos relacionales y no relacionales."
+        }
+    ],
+    "questions": [
+        {
+            "question_id": "e3488447-9878-4c3b-a2f1-9ca1312d33ae",
+            "exam_id": "c52fd89c-d3b0-437f-9674-278dfc99de22",
+            "question_text": "¿Cuál es la diferencia entre HTML y CSS?"
+        },
+        {
+            "question_id": "cedf10fb-e690-4182-a686-62bf831bf486",
+            "exam_id": "c52fd89c-d3b0-437f-9674-278dfc99de22",
+            "question_text": "¿Cuál es el propósito principal de JavaScript en el desarrollo web?"
+        },
+        {
+            "question_id": "qrs6789-0123-4def-a1b2-456789ghijkl",
+            "exam_id": "c52fd89c-d3b0-437f-9674-278dfc99de22",
+            "question_text": "¿Qué es Git y cuál es su principal función en el desarrollo web?"
+        },
+        {
+            "question_id": "tuv9012-3456-4ghi-a1b2-56789jklmno",
+            "exam_id": "c52fd89c-d3b0-437f-9674-278dfc99de22",
+            "question_text": "¿Cuál es la diferencia entre un servidor web y un hosting?"
+        },
+        {
+            "question_id": "wxy3456-7890-4jkl-a1b2-6789mnopqrs",
+            "exam_id": "c52fd89c-d3b0-437f-9674-278dfc99de22",
+            "question_text": "¿Qué es Visual Studio Code y cuáles son sus principales características?"
+        },
+
+        {
+            "question_id": "zab6789-0123-4mno-a1b2-789pqrstuvw",
+            "exam_id": "mnop3456-7890-4bcd-a1e2-3456789fghij",
+            "question_text": "¿Qué tipo de bases de datos utiliza SQL?"
+        },
+        {
+            "question_id": "cde9012-3456-4pqr-a1b2-890stuuvwxyz",
+            "exam_id": "mnop3456-7890-4bcd-a1e2-3456789fghij",
+            "question_text": "¿Cuál es la diferencia clave entre una base de datos relacional y una no relacional?"
+        },
+        {
+            "question_id": "fgh1234-5678-4stu-a1b2-901vwxyzabcd",
+            "exam_id": "mnop3456-7890-4bcd-a1e2-3456789fghij",
+            "question_text": "¿Cuál de las siguientes opciones es un gestor de bases de datos NoSQL?"
+        },
+        {
+            "question_id": "ijk2345-6789-4vwx-a1b2-012yzabcdef",
+            "exam_id": "mnop3456-7890-4bcd-a1e2-3456789fghij",
+            "question_text": "¿Qué comando se usa para insertar datos en una tabla en MySQL?"
+        },
+        {
+            "question_id": "lmn3456-7890-4yza-a1b2-123bcdefghi",
+            "exam_id": "mnop3456-7890-4bcd-a1e2-3456789fghij",
+            "question_text": "¿MongoDB almacena los datos en formato?"
+        }
+    ],
+    "answers": [
+        {
+            "answer_id": "105f0c7f-3414-477d-b6dc-860c6778c7ac",
+            "question_id": "e3488447-9878-4c3b-a2f1-9ca1312d33ae",
+            "answer_text": "HTML es un lenguaje de marcado y CSS es un lenguaje de hojas de estilo",
+            "is_correct": true
+        },
+        {
+            "answer_id": "105f0c7f-3414-477d-b6dc-860c6778c7ad",
+            "question_id": "e3488447-9878-4c3b-a2f1-9ca1312d33ae",
+            "answer_text": "HTML es un lenguaje de hojas de estilo y CSS es un lenguaje de marcado",
+            "is_correct": false
+        },
+        {
+            "answer_id": "848f270c-3774-415f-b68a-5e7ebcee9461",
+            "question_id": "e3488447-9878-4c3b-a2f1-9ca1312d33ae",
+            "answer_text": "HTML es un lenguaje de scripting y CSS es un lenguaje de marcado",
+            "is_correct": false
+        },
+        {
+            "answer_id": "c9b7cae4-7b26-48e7-9522-adccc975b626",
+            "question_id": "e3488447-9878-4c3b-a2f1-9ca1312d33ae",
+            "answer_text": "HTML es un lenguaje de marcado y CSS es un lenguaje de scripting",
+            "is_correct": false
+        },
+        {
+            "answer_id": "acb57080-738d-427e-9f1e-fe6c467df88a",
+            "question_id": "cedf10fb-e690-4182-a686-62bf831bf486",
+            "answer_text": "El propósito principal de JavaScript en el desarrollo web es agregar funcionalidad dinámica a las páginas web",
+            "is_correct": true
+        },
+        {
+            "answer_id": "d494d7e4-f5ac-4dab-9d16-bced59f13c18",
+            "question_id": "cedf10fb-e690-4182-a686-62bf831bf486",
+            "answer_text": "El propósito principal de JavaScript en el desarrollo web es crear estilos para las páginas web",
+            "is_correct": false
+        },
+        {
+            "answer_id": "c1f2b3fb-9e4f-4c7b-8f1e-2d4f1f7d21a1",
+            "question_id": "cedf10fb-e690-4182-a686-62bf831bf486",
+            "answer_text": "El propósito principal de JavaScript en el desarrollo web es crear bases de datos para las páginas web",
+            "is_correct": false
+        },
+        {
+            "answer_id": "0f8a1f7c-0c8f-4f19-8c8c-7e2c9a8a1dab",
+            "question_id": "cedf10fb-e690-4182-a686-62bf831bf486",
+            "answer_text": "El propósito principal de JavaScript en el desarrollo web es crear páginas web estáticas",
+            "is_correct": false
+        },
+        {
+            "answer_id": "1a2b3c4d-5678-9e01-2345-6789abcdef01",
+            "question_id": "qrs6789-0123-4def-a1b2-456789ghijkl",
+            "answer_text": "Git es un sistema de control de versiones que permite gestionar y rastrear cambios en el código fuente",
+            "is_correct": true
+        },
+        {
+            "answer_id": "2b3c4d5e-6789-0f12-3456-789abcdef012",
+            "question_id": "qrs6789-0123-4def-a1b2-456789ghijkl",
+            "answer_text": "Git es un lenguaje de programación para desarrollo web",
+            "is_correct": false
+        },
+        {
+            "answer_id": "3c4d5e6f-7890-1a23-4567-89abcdef0123",
+            "question_id": "qrs6789-0123-4def-a1b2-456789ghijkl",
+            "answer_text": "Git es un framework para desarrollo de aplicaciones web",
+            "is_correct": false
+        },
+        {
+            "answer_id": "4d5e6f7g-8901-2b34-5678-9abcdef01234",
+            "question_id": "qrs6789-0123-4def-a1b2-456789ghijkl",
+            "answer_text": "Git es un gestor de bases de datos",
+            "is_correct": false
+        },
+        {
+            "answer_id": "5e6f7g8h-9012-3c45-6789-abcdef012345",
+            "question_id": "tuv9012-3456-4ghi-a1b2-56789jklmno",
+            "answer_text": "Un servidor web es un software que procesa peticiones HTTP, mientras que un hosting es el servicio que proporciona espacio en un servidor",
+            "is_correct": true
+        },
+        {
+            "answer_id": "6f7g8h9i-0123-4d56-7890-bcdef0123456",
+            "question_id": "tuv9012-3456-4ghi-a1b2-56789jklmno",
+            "answer_text": "Un servidor web y un hosting son exactamente lo mismo",
+            "is_correct": false
+        },
+        {
+            "answer_id": "7g8h9i0j-1234-5e67-8901-cdef01234567",
+            "question_id": "tuv9012-3456-4ghi-a1b2-56789jklmno",
+            "answer_text": "Un hosting es un software y un servidor web es un servicio",
+            "is_correct": false
+        },
+        {
+            "answer_id": "8h9i0j1k-2345-6f78-9012-def012345678",
+            "question_id": "tuv9012-3456-4ghi-a1b2-56789jklmno",
+            "answer_text": "Un servidor web es un servicio y un hosting es un lenguaje de programación",
+            "is_correct": false
+        },
+        {
+            "answer_id": "9i0j1k2l-3456-7g89-0123-ef0123456789",
+            "question_id": "wxy3456-7890-4jkl-a1b2-6789mnopqrs",
+            "answer_text": "Visual Studio Code es un editor de código fuente con soporte para múltiples lenguajes, extensiones y herramientas de desarrollo",
+            "is_correct": true
+        },
+        {
+            "answer_id": "0j1k2l3m-4567-8h90-1234-f01234567890",
+            "question_id": "wxy3456-7890-4jkl-a1b2-6789mnopqrs",
+            "answer_text": "Visual Studio Code es un sistema operativo para desarrollo web",
+            "is_correct": false
+        },
+        {
+            "answer_id": "1k2l3m4n-5678-9i01-2345-012345678901",
+            "question_id": "wxy3456-7890-4jkl-a1b2-6789mnopqrs",
+            "answer_text": "Visual Studio Code es un gestor de bases de datos",
+            "is_correct": false
+        },
+        {
+            "answer_id": "2l3m4n5o-6789-0j12-3456-123456789012",
+            "question_id": "wxy3456-7890-4jkl-a1b2-6789mnopqrs",
+            "answer_text": "Visual Studio Code es un servidor web",
+            "is_correct": false
+        },
+
+        {
+            "answer_id": "3m4n5o6p-7890-1k23-4567-234567890123",
+            "question_id": "zab6789-0123-4mno-a1b2-789pqrstuvw",
+            "answer_text": "Bases de datos relacionales",
+            "is_correct": true
+        },
+        {
+            "answer_id": "4n5o6p7q-8901-2l34-5678-345678901234",
+            "question_id": "zab6789-0123-4mno-a1b2-789pqrstuvw",
+            "answer_text": "Bases de datos no relacionales",
+            "is_correct": false
+        },
+        {
+            "answer_id": "5o6p7q8r-9012-3m45-6789-456789012345",
+            "question_id": "zab6789-0123-4mno-a1b2-789pqrstuvw",
+            "answer_text": "Bases de datos documentales",
+            "is_correct": false
+        },
+        {
+            "answer_id": "6p7q8r9s-0123-4n56-7890-567890123456",
+            "question_id": "zab6789-0123-4mno-a1b2-789pqrstuvw",
+            "answer_text": "Bases de datos en grafo",
+            "is_correct": false
+        },
+        {
+            "answer_id": "7q8r9s0t-1234-5o67-8901-678901234567",
+            "question_id": "cde9012-3456-4pqr-a1b2-890stuuvwxyz",
+            "answer_text": "Las bases de datos relacionales organizan los datos en tablas con relaciones, mientras que las no relacionales los almacenan en documentos, grafos o clave-valor",
+            "is_correct": true
+        },
+        {
+            "answer_id": "8r9s0t1u-2345-6p78-9012-789012345678",
+            "question_id": "cde9012-3456-4pqr-a1b2-890stuuvwxyz",
+            "answer_text": "Ambas almacenan los datos de la misma manera",
+            "is_correct": false
+        },
+        {
+            "answer_id": "9s0t1u2v-3456-7q89-0123-890123456789",
+            "question_id": "cde9012-3456-4pqr-a1b2-890stuuvwxyz",
+            "answer_text": "Las bases de datos relacionales son más rápidas que las no relacionales",
+            "is_correct": false
+        },
+        {
+            "answer_id": "0t1u2v3w-4567-8r90-1234-901234567890",
+            "question_id": "cde9012-3456-4pqr-a1b2-890stuuvwxyz",
+            "answer_text": "Las bases de datos no relacionales son más antiguas que las relacionales",
+            "is_correct": false
+        },
+        {
+            "answer_id": "1u2v3w4x-5678-9s01-2345-012345678901",
+            "question_id": "fgh1234-5678-4stu-a1b2-901vwxyzabcd",
+            "answer_text": "MongoDB",
+            "is_correct": true
+        },
+        {
+            "answer_id": "2v3w4x5y-6789-0t12-3456-123456789012",
+            "question_id": "fgh1234-5678-4stu-a1b2-901vwxyzabcd",
+            "answer_text": "MySQL",
+            "is_correct": false
+        },
+        {
+            "answer_id": "3w4x5y6z-7890-1u23-4567-234567890123",
+            "question_id": "fgh1234-5678-4stu-a1b2-901vwxyzabcd",
+            "answer_text": "PostgreSQL",
+            "is_correct": false
+        },
+        {
+            "answer_id": "4x5y6z7a-8901-2v34-5678-345678901234",
+            "question_id": "fgh1234-5678-4stu-a1b2-901vwxyzabcd",
+            "answer_text": "Oracle",
+            "is_correct": false
+        },
+        {
+            "answer_id": "5y6z7a8b-9012-3w45-6789-456789012345",
+            "question_id": "ijk2345-6789-4vwx-a1b2-012yzabcdef",
+            "answer_text": "INSERT INTO",
+            "is_correct": true
+        },
+        {
+            "answer_id": "6z7a8b9c-0123-4x56-7890-567890123456",
+            "question_id": "ijk2345-6789-4vwx-a1b2-012yzabcdef",
+            "answer_text": "UPDATE SET",
+            "is_correct": false
+        },
+        {
+            "answer_id": "7a8b9c0d-1234-5y67-8901-678901234567",
+            "question_id": "ijk2345-6789-4vwx-a1b2-012yzabcdef",
+            "answer_text": "DELETE FROM",
+            "is_correct": false
+        },
+        {
+            "answer_id": "8b9c0d1e-2345-6z78-9012-789012345678",
+            "question_id": "ijk2345-6789-4vwx-a1b2-012yzabcdef",
+            "answer_text": "SELECT FROM",
+            "is_correct": false
+        },
+        {
+            "answer_id": "9c0d1e2f-3456-7a89-0123-890123456789",
+            "question_id": "lmn3456-7890-4yza-a1b2-123bcdefghi",
+            "answer_text": "Documentos JSON",
+            "is_correct": true
+        },
+        {
+            "answer_id": "0d1e2f3g-4567-8b90-1234-901234567890",
+            "question_id": "lmn3456-7890-4yza-a1b2-123bcdefghi",
+            "answer_text": "Tablas estructuradas",
+            "is_correct": false
+        },
+        {
+            "answer_id": "1e2f3g4h-5678-9c01-2345-012345678901",
+            "question_id": "lmn3456-7890-4yza-a1b2-123bcdefghi",
+            "answer_text": "Filas y columnas",
+            "is_correct": false
+        },
+        {
+            "answer_id": "2f3g4h5i-6789-0d12-3456-123456789012",
+            "question_id": "lmn3456-7890-4yza-a1b2-123bcdefghi",
+            "answer_text": "Archivos XML",
+            "is_correct": false
+        }
+    ],
+    "usersCourses": [
+        {
+            "user_course_id": "76c85f07-3359-4be3-bc7d-c6cfcbb09b75",
+            "user_id": "e159d848-3457-4a87-9ece-1a225e6ee236",
+            "course_id": "15e58474-9e12-4939-88cd-4b02675914dd",
+            "course_state": "progress",
+            "course_completion": null,
+            "createdAt": "2025-03-29T11:47:42.000Z",
+            "updatedAt": "2025-03-29T11:47:42.000Z"
+        },
+        {
+            "user_course_id": "c6764d62-84a6-421b-952b-6396c30c5a73",
+            "user_id": "e159d848-3457-4a87-9ece-1a225e6ee236",
+            "course_id": "b9d2f45a-7e12-4f3c-a6b8-4e23a981f789",
+            "course_state": "completed",
+            "course_completion": "2025-04-06T20:32:44.000Z",
+            "createdAt": "2025-04-06T20:32:10.000Z",
+            "updatedAt": "2025-04-06T20:32:44.000Z"
+        }
+    ],
+    "usersExams": [
+        {
+            "user_course_id": "76c85f07-3359-4be3-bc7d-c6cfcbb09b75",
+            "user_exam_id": "c52fd89c-d3b0-437f-9674-278dfc99de22",
+            "exam_state": "completed",
+            "createdAt": "2025-03-29T11:47:42.000Z",
+            "updatedAt": "2025-03-29T11:47:42.000Z"
+        },
+        {
+            "user_course_id": "c6764d62-84a6-421b-952b-6396c30c5a73",
+            "user_exam_id": "2c771421-86c2-48b6-9637-1df87aa6d510",
+            "exam_state": "completed",
+            "createdAt": "2025-04-06T20:32:30.000Z",
+            "updatedAt": "2025-04-06T20:32:44.000Z"
+        }
+    ],
+    "usersAnswers": [
+        {
+            "user_exam_id": "c52fd89c-d3b0-437f-9674-278dfc99de22",
+            "answer_id": "105f0c7f-3414-477d-b6dc-860c6778c7ac"
+        },
+        {
+            "user_exam_id": "c52fd89c-d3b0-437f-9674-278dfc99de22",
+            "answer_id": "d494d7e4-f5ac-4dab-9d16-bced59f13c18"
+        },
+        {
+            "user_exam_id": "c52fd89c-d3b0-437f-9674-278dfc99de22",
+            "answer_id": "2b3c4d5e-6789-0f12-3456-789abcdef012"
+        },
+        {
+            "user_exam_id": "c52fd89c-d3b0-437f-9674-278dfc99de22",
+            "answer_id": "6f7g8h9i-0123-4d56-7890-bcdef0123456"
+        },
+        {
+            "user_exam_id": "c52fd89c-d3b0-437f-9674-278dfc99de22",
+            "answer_id": "9i0j1k2l-3456-7g89-0123-ef0123456789"
+        },
+
+        {
+            "user_exam_id": "2c771421-86c2-48b6-9637-1df87aa6d510",
+            "answer_id": "3m4n5o6p-7890-1k23-4567-234567890123"
+        },
+        {
+            "user_exam_id": "2c771421-86c2-48b6-9637-1df87aa6d510",
+            "answer_id": "7q8r9s0t-1234-5o67-8901-678901234567"
+        },
+        {
+            "user_exam_id": "2c771421-86c2-48b6-9637-1df87aa6d510",
+            "answer_id": "1u2v3w4x-5678-9s01-2345-012345678901"
+        },
+        {
+            "user_exam_id": "2c771421-86c2-48b6-9637-1df87aa6d510",
+            "answer_id": "5y6z7a8b-9012-3w45-6789-456789012345"
+        },
+        {
+            "user_exam_id": "2c771421-86c2-48b6-9637-1df87aa6d510",
+            "answer_id": "9c0d1e2f-3456-7a89-0123-890123456789"
+        }
+    ],
+    "usersLessons": [
+        {
+            "user_course_id": "76c85f07-3359-4be3-bc7d-c6cfcbb09b75",
+            "lesson_id": "c52fd89c-d3b0-437f-9674-278dfc99de22",
+            "createdAt": "2025-04-18T20:32:10.000Z",
+            "updatedAt": "2025-04-18T20:32:10.000Z"
+        },
+        {
+            "user_course_id": "76c85f07-3359-4be3-bc7d-c6cfcbb09b75",
+            "lesson_id": "fc206644-f05a-4ee8-ae69-cdfa6e35b650",
+            "createdAt": "2025-04-19T20:32:10.000Z",
+            "updatedAt": "2025-04-19T20:32:10.000Z"
+        },
+        {
+            "user_course_id": "c6764d62-84a6-421b-952b-6396c30c5a73",
+            "lesson_id": "abcd1234-5678-4e9f-bc1d-2a3456789ef0",
+            "createdAt": "2025-04-20T20:32:10.000Z",
+            "updatedAt": "2025-04-20T20:32:10.000Z"
+        },
+        {
+            "user_course_id": "c6764d62-84a6-421b-952b-6396c30c5a73",
+            "lesson_id": "efgh5678-1234-4b9c-a1d2-3a456789bcde",
+            "createdAt": "2025-04-20T20:33:10.000Z",
+            "updatedAt": "2025-04-20T20:33:10.000Z"
+        },
+        {
+            "user_course_id": "c6764d62-84a6-421b-952b-6396c30c5a73",
+            "lesson_id": "ijkl9012-3456-4c7d-a8b9-5d6e789fgh11",
+            "createdAt": "2025-04-20T20:34:10.000Z",
+            "updatedAt": "2025-04-20T20:34:10.000Z"
+        },
+        {
+            "user_course_id": "c6764d62-84a6-421b-952b-6396c30c5a73",
+            "lesson_id": "98765432-1b23-4c5d-8e91-5678b9d3aef1",
+            "createdAt": "2025-04-23T20:32:10.000Z",
+            "updatedAt": "2025-04-23T20:32:10.000Z"
+        },
+        {
+            "user_course_id": "c6764d62-84a6-421b-952b-6396c30c5a73",
+            "lesson_id": "ijkl9012-3456-4c7d-a8b9-5d6e789fgh12",
+            "createdAt": "2025-04-24T20:32:10.000Z",
+            "updatedAt": "2025-04-24T20:32:10.000Z"
+        },
+        {
+            "user_course_id": "c6764d62-84a6-421b-952b-6396c30c5a73",
+            "lesson_id": "1f7f6a03-3e55-4ffc-95c6-57a6e6befe4c",
+            "createdAt": "2025-04-24T20:32:10.000Z",
+            "updatedAt": "2025-04-24T20:32:10.000Z"
+        }
+    ]
+}
+
