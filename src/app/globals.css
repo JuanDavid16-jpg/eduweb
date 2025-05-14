@@ -1,0 +1,63 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+    themes: light;
+}
+@plugin "daisyui/theme" {
+    name: "light";
+    default: true;
+
+    --color-base-100: #0f172a;
+    --color-base-200: #1e293b;
+    --color-base-300: #334155;
+    --color-base-content: #f0f9ff;
+    --color-primary: #38bdf8;
+    --color-primary-content: #020617;
+    --plyr-color-main: #38bdf8;
+}
+
+@theme {
+    --font-inter: "Inter", "Inter Fallback";
+    --font-alegreya: "Alegreya Sans", "Alegreya Sans Fallback";
+}
+
+:root {
+    --swiper-pagination-bullet-inactive-color: #f0f9ff;
+    --swal2-border-radius: 0.8rem !important;
+}
+
+.timeline-vertical > li > hr {
+    width: 0.15rem;
+}
+
+.markdown * {
+    all: revert;
+}
+
+.markdown pre {
+    background-color: var(--color-base-100);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    overflow-x: auto;
+    margin: 1rem 0;
+}
+
+.markdown code {
+    font-family: monospace;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #f0f9ff;
+}
+
+.markdown pre code {
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+    color: #f0f9ff;
+}
+
+.markdown p code {
+    background-color: var(--color-base-100);
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.25rem;
+    color: #f0f9ff;
+}
